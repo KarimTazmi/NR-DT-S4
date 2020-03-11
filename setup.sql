@@ -3,7 +3,6 @@ select
     birthyear,
     first_name,
     freq
-    -- Selectie kolommen + frequentie
     from (
         select *,
         count(1) as freq
